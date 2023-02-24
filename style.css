@@ -1,4 +1,3 @@
-
 :root{
     --darkblue :#0e1117;
     --wite:#ffffff;
@@ -16,6 +15,14 @@ body{
     max-width: 85%;
     margin: auto;
     color: gray;
+}
+.user-card-info{
+    margin-bottom: 20px;
+}
+.user-card-info img{
+    border-radius: 50px;
+    margin-top: -10px;
+    border: 1px solid grey;
 }
 .grid-element{
     display: grid;

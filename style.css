@@ -82,14 +82,9 @@ border: 1px solid var(--darkerblue);
     padding: 10px 0;
 }
 .user-org a{
-
+    padding: auto;
 }
 
-@media only screen and (max-width : 600px){
-    .grid-element{
-        grid-template-columns: 1fr;
-    }
-}
 .nav-user-profile{
     padding: 10px 0 ;
     border-bottom:1px solid var(--darkblue);
@@ -148,4 +143,13 @@ border: 1px solid var(--darkerblue);
 }
 .card-land-details span{
     margin-right: 10px;
+}
+
+@media only screen and (max-width : 600px){
+    .grid-element{
+        grid-template-columns: 1fr;
+    }
+    .repo-card{
+        width: 100%;
+    }
 }

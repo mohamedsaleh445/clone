@@ -3,3 +3,8 @@
     margin: auto;
     color: gray;
 }
+.grid-element{
+    display: grid;
+    gap: 0;
+    grid-template-columns: 1fr 3fr;
+}

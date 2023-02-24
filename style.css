@@ -1,3 +1,17 @@
+
+:root{
+    --darkblue :#0e1117;
+    --wite:#ffffff;
+    --gray: #c9d1d9;
+    --darkgray:#8b949e;
+    --blue:#58a6ff;
+    --lightblue :#15223a;
+    --darkerblue:#21262c;
+}
+body{
+
+    background-color: var(--darkblue);
+}
 .container{
     max-width: 85%;
     margin: auto;
@@ -7,4 +21,18 @@
     display: grid;
     gap: 0;
     grid-template-columns: 1fr 3fr;
+}
+
+@media only screen and (max-width : 600px){
+    .grid-element{
+        grid-template-columns: 1fr;
+    }
+}
+.nav-user-profile{
+    padding: 10px 0 ;
+    border-bottom:1px solid var(--darkblue);
+}
+.nav-user-profile a{
+    color :var(--gray);
+    text-decoration: none;
 }
